@@ -11,5 +11,5 @@ dt <- strptime(dt,"%Y-%m-%d %H:%M:%S")
 hist(data$Global_active_power,col="red",main="Global Active Power",xlab="Global Active Power(kilowatts)")
 
 #The graph is saved in a png file
-dev.copy(png,file="plot1.png", width=480, height=480)
+dev.copy(png,"plot1.png",width=480, height=480)
 dev.off()
